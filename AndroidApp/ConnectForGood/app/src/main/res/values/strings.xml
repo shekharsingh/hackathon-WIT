@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConnectForGood</string>
+    <string name="button1">Sell Goods</string>
+    <string name="button2">Browse Stock</string>
+    <string name="title_activity_produce_list_detail_host">Produce List </string>
+    <string name="title_producelist_list">Items</string>
+    <string name="title_producelist_detail">Produce List Detail</string>
+</resources>
