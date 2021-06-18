@@ -108,35 +108,46 @@ Best farming practices for sustainable living and greater food chain ability for
 Right cost for right produce
 
 ## Getting started
+https://github.com/shekharsingh/hackathon-WIT
 
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
+User
+    - acc_create.py : creates account for a user based on AI interface
+        TODO - user face data to be used for unique key and id for rest of the database
+    - update_product_data.py : update the database with product details and pricing what user wants to sell.py :
+        TODO - Add Face data to login automatically and pull the db for particular users
+            Open camera app to record and upload video
+Classify
+    - fruitclassify.py - model to learn and classify fruits
+        TODO - not saving models
+    - fruit_transfer_learning.py - model to classify fruit. Saves model
+        TODO -  accuracy less than 90%
+    - fruits_model.h5 - saved model
+    - dataset - dataset for fruits from kaggle
+ObjectExtract
+    - objDetect.py - extract objects from the image
+        TODO - use same for different frames of Video
+    - mask_rcnn_coco.h5 - model to get objects
+    - Input.jpg - example
+    - Output.jpg - find and tag all objects in the picture
+    segmented_object_X.jpg - extract objects and saves
 
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
+You can find a running system to test at <<TBD>>.
 
 ## Built with
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-- [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- <<TBD>>
 
-## Contributing
+## Contributing <<TBD>>
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
+## Versioning<<TBD>>
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Authors
+## Authors<<TBD>>
 
 <a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
@@ -144,10 +155,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 - **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
-## License
+## License<<TBD>>
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## Acknowledgments<<TBD>>
 
 - Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
