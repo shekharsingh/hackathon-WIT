@@ -31,15 +31,17 @@ Current system of food is lot more threating in nature - lot of water usage (70%
 Food insecurity has led to poor diet leading to lot of diseases. Healthy diet is becoming more and more unaffordable to large section of society.
 On the other hand, farmers struggle to make ends meet. If a farmer must survive, farming policies needs to change across world and needs a massive shift – policy should deliver fair prices and allow them to make a living that never put them at risk any time during their lifetime. When farmer do better, we all do better, and vice-versa. Farming is termed inelastic – with farmers and consumers not knowing the demand and supply for a given year. Parity pricing set by farmer is important to address pricing woes and that will benefit farmer and help consumer consume without additional middleman cost
 In the current era, most of the agricultural products are sold by farmers to money lenders or traders. These private middlemen or traders dominate the agricultural marketing exploiting farmers due to lack of adequate marketing infrastructure or logistics to reach consumers directly.
+
 Lot of constraints that results in poor farmers though they feed the entire world includes but not limited to:
-	Too many middlemen / Traders
-	Fragmented nature of market - Limited infra to handle farmers produce.
-	Density regulated markets – Demand and supply varies from place to place and densely populated areas determine the cost of product mostly.
-	High market fee or logistic charges 
-	High intermediation cost
-	Limited rural credit facility for farmers
-	Insufficient storage facility
-	Malpractices in market – large gains for sampling almost half of produce, black marketing, hoarding etc.
+- 	Too many middlemen / Traders
+- 	Fragmented nature of market - Limited infra to handle farmers produce.
+- 	Density regulated markets – Demand and supply varies from place to place and densely populated areas determine the cost of product mostly.
+- 	High market fee or logistic charges 
+- 	High intermediation cost
+- 	Limited rural credit facility for farmers
+- 	Insufficient storage facility
+- 	Malpractices in market – large gains for sampling almost half of produce, black marketing, hoarding etc.
+
 The best way to address this is to ensure that a farmer friendly infrastructure is available that can help him/his family sell the produce to the nearby consumers to a comparatively higher cost than what a middleman provides.
 For E.g. if a coconut we buy at house hold is Rs.40/-, then  the farmer used to sell the same for Rs.8/ to a middleman (Fact studied recently) and almost Rs.32 is incurred by middle man for transport and logistics.  But if there is an easy means for farmer to sell his produce directly to the consumers for say Rs.15 and let consumers in the neighboring location or same community pool in logistics cost which might not cost more than Rs.22 for a coconut. This is more of improving farmers economy and profit, beneficial to consumers with the satisfaction of knowing source of the produce and freshness of product.
 
@@ -56,18 +58,18 @@ Consumers in colonies., communities group together to ensure logistics on the wa
 
 ### The idea
 
-==Farmers upload video of produce in Native or known language describing cost in retail or whole-sale, Quantity availability, location, and available items using the CFG android app
-==The details extracted as below:
+- Farmers upload video of produce in Native or known language describing cost in retail or whole-sale, Quantity availability, location, and available items using the CFG android app
+- The details extracted as below:
      >> Name of the farmer or Farm , Mobile Number, Location/Address, Name of produce-Type/Sub-Type, QTY of produce, Price for min and max QTY
-==Same is uploaded to the IBM Cloud Object Storage (COS) for retrieving the text, image of produce and other relevant details using the trained ML model (PixelLib).
-==The extracted details are put in json format and stored in IBM COS(Cloud Object Storage) as well and displayed for consumers once the video upload complete with extraction done on the android app
-==User can then place the order on the app , the details are again consolidated in Cloud storage , fair pricing on logistics arrived at for community and order is confirmed.
-==Once order is confirmed, community logistics will work towards collaborating with neighboring community using Newman detection algorithm
+- Same is uploaded to the IBM Cloud Object Storage (COS) for retrieving the text, image of produce and other relevant details using the trained ML model (PixelLib).
+- The extracted details are put in json format and stored in IBM COS(Cloud Object Storage) as well and displayed for consumers once the video upload complete with extraction done on the android app
+- User can then place the order on the app , the details are again consolidated in Cloud storage , fair pricing on logistics arrived at for community and order is confirmed.
+- Once order is confirmed, community logistics will work towards collaborating with neighboring community using Newman detection algorithm
 
 
 ## Demo video
 
-https://www.youtube.com/watch?v=mOgD1ICfoKU&list=PLMA3bIh3aDJ4tTf0TnD25wZ17uvgH6QAF&index=3
+https://www.youtube.com/watch?v=CI7PHSfkGF8
 
 ## The architecture
 
@@ -135,8 +137,7 @@ https://github.com/shekharsingh/hackathon-WIT
 
 ## Built with
 
-Programming languages – Python, 
-Machine Learning –Model – Pixel Lib & Audio bot
+Programming languages – Python, kotlin
+Machine Learning for image, video and text processing and bot – speed-recognition, NLP, pixellib, opencv
 IBM catalog – IBM Cloud Object Storage , IBM COS SDK for Python using IBM_boto3
 OS – Android Studio 4.2.1, Android SDK( 9.0,),SDK platform tools/SDK-tools -31.0.2/26.1.1
-
