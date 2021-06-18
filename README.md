@@ -1,6 +1,5 @@
 # ConnectF(armers)orGood
 
-
 ## Contents
 
 - [ConnectF(armers)orGood](#submission-or-project-name)
@@ -68,11 +67,10 @@ Consumers in colonies., communities group together to ensure logistics on the wa
 
 ## Demo video
 
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+https://www.youtube.com/watch?v=mOgD1ICfoKU&list=PLMA3bIh3aDJ4tTf0TnD25wZ17uvgH6QAF&index=3
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 
 1. The user navigates to the android CFG app and uploads a video file.
 2. IBM cloud object storage has a bucket created with the name "cgf-bucket", an instance and the video is uploaded.
@@ -133,32 +131,12 @@ ObjectExtract
 
 ## Live demo
 
-You can find a running system to test at <<TBD>>.
+https://github.com/shekharsingh/hackathon-WIT
 
 ## Built with
 
-- <<TBD>>
+Programming languages – Python, 
+Machine Learning –Model – Pixel Lib & Audio bot
+IBM catalog – IBM Cloud Object Storage , IBM COS SDK for Python using IBM_boto3
+OS – Android Studio 4.2.1, Android SDK( 9.0,),SDK platform tools/SDK-tools -31.0.2/26.1.1
 
-## Contributing <<TBD>>
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning<<TBD>>
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors<<TBD>>
-
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
-</a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License<<TBD>>
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments<<TBD>>
-
-- Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
