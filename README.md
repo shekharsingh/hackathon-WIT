@@ -117,6 +117,7 @@ Producer
 - update_product_data.py : update the database with product details and pricing what user wants to sell.py :
     TODO - Add Face data to login automatically and pull the db for particular users
         Open camera app to record and upload video
+
 Classify
 - fruitclassify.py - model to learn and classify fruits
     TODO - not saving models
@@ -124,6 +125,7 @@ Classify
     TODO -  accuracy less than 90%
 - fruits_model.h5 - saved model
 - dataset - dataset for fruits from kaggle
+
 ObjectExtract
 - objDetect.py - extract objects from the image
     TODO - use same for different frames of Video
