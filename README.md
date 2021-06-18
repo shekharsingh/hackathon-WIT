@@ -27,10 +27,10 @@
 
 Agriculture is one of the major means to eradicate poverty in the world. It must feed close to 10 billion people by 2050. 65% of people in the world survive with the income from agriculture.
 It is very crucial for economic growth, eradication of poverty, and global GDP improvements among the countries in the world.
-Current system of food is lot more threating in nature - lot of water usage (70% of water in the earth is used for agriculture), lot of unsustainable pollution and waste. One-Third of food produced is wasted globally. Fresh produce, nutrition values of produce is always retained only when produce reaches consumer households or any form of consumer earlier than now. It takes closer to 24-48 hours for a produce to reach a market and then takes about 4-5 hours to reach a household or the place where it’s used for making dishes.
-Food insecurity has led to poor diet leading to lot of diseases. Healthy diet is becoming more and more unaffordable to large section of society.
-On the other hand, farmers struggle to make ends meet. If a farmer must survive, farming policies needs to change across world and needs a massive shift – policy should deliver fair prices and allow them to make a living that never put them at risk any time during their lifetime. When farmer do better, we all do better, and vice-versa. Farming is termed inelastic – with farmers and consumers not knowing the demand and supply for a given year. Parity pricing set by farmer is important to address pricing woes and that will benefit farmer and help consumer consume without additional middleman cost
-In the current era, most of the agricultural products are sold by farmers to money lenders or traders. These private middlemen or traders dominate the agricultural marketing exploiting farmers due to lack of adequate marketing infrastructure or logistics to reach consumers directly.
+
+Current system of food is lot more threating in nature - lot of water usage (70% of water in the earth is used for agriculture), lot of unsustainable pollution and waste. One-Third of food produced is wasted globally. Fresh produce, nutrition values of produce is always retained only when produce reaches consumer households or any form of consumer earlier than now. It takes closer to 24-48 hours for a produce to reach a market and then takes about 4-5 hours to reach a household or the place where it’s used for making dishes. Food insecurity has led to poor diet leading to lot of diseases. Healthy diet is becoming more and more unaffordable to large section of society. 
+
+On the other hand, farmers struggle to make ends meet. If a farmer must survive, farming policies needs to change across world and needs a massive shift – policy should deliver fair prices and allow them to make a living that never put them at risk any time during their lifetime. When farmer do better, we all do better, and vice-versa. Farming is termed inelastic – with farmers and consumers not knowing the demand and supply for a given year. Parity pricing set by farmer is important to address pricing woes and that will benefit farmer and help consumer consume without additional middleman cost. In the current era, most of the agricultural products are sold by farmers to money lenders or traders. These private middlemen or traders dominate the agricultural marketing exploiting farmers due to lack of adequate marketing infrastructure or logistics to reach consumers directly.
 
 Lot of constraints that results in poor farmers though they feed the entire world includes but not limited to:
 - 	Too many middlemen / Traders
@@ -95,40 +95,41 @@ The project currently does the following things.
 - Step 1-6 is currently complete
 - Steps 7-9 to be futurisitic and planned in near future.
 
-Extensible futuristic solution
-Plans to integrate Groceries as part of the app
-Leverage Environment friendly farming practices and live sessions
-Share canceled orders or produce to the nearest needy.
-Lend loans to needy farmers with the community sharing corpus.
-orpus to be used for sponsoring education of farmers kids till they stabilize as they start with CFG app.
+- Extensible futuristic solution
+- Plans to integrate Groceries as part of the app
+- Leverage Environment friendly farming practices and live sessions
+- Share canceled orders or produce to the nearest needy.
+- Lend loans to needy farmers with the community sharing corpus.
+- Corpus to be used for sponsoring education of farmers kids till they stabilize as they start with CFG app.
+
 Advantages/ and Disadvantages 
-Limited / no middleman looting farmers anymore.
-Farmers will be able to determine the cost
-Best farming practices for sustainable living and greater food chain ability for future generation
-Right cost for right produce
+- Limited / no middleman looting farmers anymore.
+- Farmers will be able to determine the cost
+- Best farming practices for sustainable living and greater food chain ability for future generation
+- Right cost for right produce
 
 ## Getting started
 https://github.com/shekharsingh/hackathon-WIT
 
-User
-    - acc_create.py : creates account for a user based on AI interface
-        TODO - user face data to be used for unique key and id for rest of the database
-    - update_product_data.py : update the database with product details and pricing what user wants to sell.py :
-        TODO - Add Face data to login automatically and pull the db for particular users
-            Open camera app to record and upload video
+Producer
+- acc_create.py : creates account for a user based on AI interface
+    TODO - user face data to be used for unique key and id for rest of the database
+- update_product_data.py : update the database with product details and pricing what user wants to sell.py :
+    TODO - Add Face data to login automatically and pull the db for particular users
+        Open camera app to record and upload video
 Classify
-    - fruitclassify.py - model to learn and classify fruits
-        TODO - not saving models
-    - fruit_transfer_learning.py - model to classify fruit. Saves model
-        TODO -  accuracy less than 90%
-    - fruits_model.h5 - saved model
-    - dataset - dataset for fruits from kaggle
+- fruitclassify.py - model to learn and classify fruits
+    TODO - not saving models
+- fruit_transfer_learning.py - model to classify fruit. Saves model
+    TODO -  accuracy less than 90%
+- fruits_model.h5 - saved model
+- dataset - dataset for fruits from kaggle
 ObjectExtract
-    - objDetect.py - extract objects from the image
-        TODO - use same for different frames of Video
-    - mask_rcnn_coco.h5 - model to get objects
-    - Input.jpg - example
-    - Output.jpg - find and tag all objects in the picture
+- objDetect.py - extract objects from the image
+    TODO - use same for different frames of Video
+- mask_rcnn_coco.h5 - model to get objects
+- Input.jpg - example
+- Output.jpg - find and tag all objects in the picture
     segmented_object_X.jpg - extract objects and saves
 
 ## Live demo
@@ -137,7 +138,7 @@ https://github.com/shekharsingh/hackathon-WIT
 
 ## Built with
 
-Programming languages – Python, kotlin
-Machine Learning for image, video and text processing and bot – speed-recognition, NLP, pixellib, opencv
-IBM catalog – IBM Cloud Object Storage , IBM COS SDK for Python using IBM_boto3
-OS – Android Studio 4.2.1, Android SDK( 9.0,),SDK platform tools/SDK-tools -31.0.2/26.1.1
+- Programming languages – Python, kotlin
+- Machine Learning for image, video and text processing and bot – speed-recognition, NLP, pixellib, opencv
+- IBM catalog – IBM Cloud Object Storage , IBM COS SDK for Python using IBM_boto3
+- OS – Android Studio 4.2.1, Android SDK( 9.0,),SDK platform tools/SDK-tools -31.0.2/26.1.1
